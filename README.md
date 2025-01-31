@@ -7,7 +7,7 @@ This repository presents a structured **SQL analytics project** designed for an 
 - `EcommerceDatabaseCreation&DataLoad.sql` - SQL scripts for database schema creation.
 - `data/` - dataset used for SQL queries.
 - `queries/` - Collection of 60 structured SQL queries.
-- `ecommerce_sql_analysis.tex` - LaTeX IEEE-format documentation.
+- `ecommerce_sql_analysis.pdf` - LaTeX powered IEEE-format documentation.
 - `EcommerceDatabase.png` - ER Diagram representation.
 - `README.md` - Project documentation.
 
@@ -51,7 +51,7 @@ The **ER Diagram** illustrates the **relational structure** of the database:
 ![ER Diagram](EcommerceDatabase.png)
 
 ## 6. Documentation
-The **IEEE LaTeX document (`ecommerce_sql_analysis.tex`)** includes:
+The **IEEE LaTeX document (`ecommerce_sql_analysis.pdf`)** includes:
 - SQL Query Categorization
 - Query Optimization Strategies
 - Business Intelligence Insights
