@@ -12,19 +12,19 @@ This repository presents a structured **SQL analytics project** designed for an 
 - `README.md` - Project documentation.
 
 ## 3. SQL Features
-✅ **Easy Queries:** Basic SELECT, GROUP BY, COUNT, SUM, and AVG operations.  
-✅ **Intermediate Queries:** Subqueries, CASE statements, ranking, and joins.  
-✅ **Hard Queries:** CTEs, recursive queries, trend analysis, and window functions.  
-✅ **Database Optimization:** Indexing, partitioning, and materialized views.  
-✅ **Performance Enhancement:** Query execution plan analysis and data retrieval efficiency.
+ **Easy Queries:** Basic SELECT, GROUP BY, COUNT, SUM, and AVG operations.  
+ **Intermediate Queries:** Subqueries, CASE statements, ranking, and joins.  
+ **Hard Queries:** CTEs, recursive queries, trend analysis, and window functions.  
+ **Database Optimization:** Indexing, partitioning, and materialized views.  
+ **Performance Enhancement:** Query execution plan analysis and data retrieval efficiency.
 
 ## 4. Setup Instructions
-### 1️⃣ Clone the Repository
+### 1️ Clone the Repository
 ```bash
 git clone https://github.com/Aravindpanchanathan2799/Ecommerce-Sql-Analytics/.git
 cd ecommerce-sql-analytics
 ```
-### 2️⃣ Import Database Schema
+### 2️ Import Database Schema
 ```sql
 CREATE DATABASE ecommerce_db;
 USE ecommerce_db;
@@ -32,13 +32,13 @@ SOURCE EcommerceAnalysis-I;
 SOURCE EcommerceAnalysis-II;
 SOURCE EcommerceAnalysis-III;
 ```
-### 3️⃣ Load Sample Data
+### 3️ Load Sample Data
 ```sql
 LOAD DATA INFILE 'data/Users_Data.csv' INTO TABLE users
 FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 ```
-### 4️⃣ Execute SQL Queries
+### 4️ Execute SQL Queries
 ```sql
 SOURCE EcommerceAnalysis-I;
 SOURCE EcommerceAnalysis-II;
